@@ -10,8 +10,11 @@
 		<style>
 	        #header{            
 	            width:100%;
-	            height:50px;
+	            height: 70px; 
+	            min-height: 50px; 
+	            overflow: hidden;"
 	            text-align: center;
+	            vertical-align: middle;
 	            line-height: 50px;
 	            background-color: #61868e;
 	        }
@@ -45,6 +48,5 @@
 	    <div id="main"><tiles:insertAttribute name="body" /></div>    
 	    <div id="footer"><tiles:insertAttribute name="footer" /></div>
 	    </div>
-	 
 	</body>
 </html>
